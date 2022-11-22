@@ -1,0 +1,16 @@
+GET https://aspectran.com/assets/img/aspectran-site-logo.png HTTP/2.0
+sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-ch-ua-mobile: ?0
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: same-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+referer: https://jpetstore.aspectran.com/
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.1224198823.1668959823; _ga_PBGW9BF7P6=GS1.1.1668965875.2.1.1668967491.0.0.0; __cf_bm=f9g.hQgZsyCvWnuiCj89xdKnro2pCfekt.OrshpNxUU-1668967554-0-ASVF1/QalyjLhBt5wOM4anNfGalAmQYU/cZtUo/eej91CI9l+a8FgY90XGR2QAZNNC3v+n0S9mmJCBb7VTwQJv+zRUCjneVcUZQzvtkpiwDDhISbjUavWvl+TyFK8ENn53dPH+UTBxQx/4cuo/h01o8=
+if-none-match: "61cc027f-46ef"
+if-modified-since: Wed, 29 Dec 2021 06:38:55 GMT
+

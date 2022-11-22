@@ -1,0 +1,11 @@
+POST https://www.googleapis.com/oauth2/v4/token HTTP/2.0
+content-length: 279
+content-type: application/x-www-form-urlencoded
+sec-fetch-site: none
+sec-fetch-mode: no-cors
+sec-fetch-dest: empty
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+
+client_id=77185425430.apps.googleusercontent.com&client_secret=OTJgUOQcT7lO7GsGZq2G4IlT&grant_type=refresh_token&refresh_token=1//0g7N363Aob79uCgYIARAAGBASNwF-L9Ir1M-JzmJDNAGpUEpwSKBtyVCXQOAUuxp8TwyxxSkltKGPaQMpPPnGBrIPEFGOKUxqvn0&scope=https://www.googleapis.com/auth/chromesync

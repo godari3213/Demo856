@@ -1,0 +1,14 @@
+GET https://aspectran.com/assets/css/aspectran.css HTTP/2.0
+sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-ch-ua-mobile: ?0
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: style
+referer: https://jpetstore.aspectran.com/
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+cookie: _ga=GA1.1.1224198823.1668959823; __cf_bm=x0jGK9iawAigzf_XTwOLzpRzizsElM6D6U3w1E.yshQ-1668967488-0-AcHjbB40+HhEzQforDeyXMeQgdNWhnSCumxWxeJsbhutAIdafGKSPVJmjSq2IYbGNWvWA7yi2NtlRbg8HR9UXvphtLmAnpILP8m41FD3EG5mxJvyV5kDvNmr0zBX25xd7pWDCCEtmYoFJIojEN91+pI=; _ga_PBGW9BF7P6=GS1.1.1668965875.2.1.1668967491.0.0.0
+

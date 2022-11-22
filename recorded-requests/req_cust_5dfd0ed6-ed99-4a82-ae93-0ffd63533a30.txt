@@ -1,0 +1,15 @@
+GET https://aspectran.com/assets/js/foundation.min.js HTTP/1.1
+sec-fetch-mode: no-cors
+sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-fetch-site: same-site
+sec-ch-ua-mobile: ?0
+accept-language: en-US,en;q=0.9
+sec-ch-ua-platform: "Windows"
+accept-encoding: br,deflate,gzip
+sec-fetch-dest: script
+accept: */*
+Referer: https://jpetstore.aspectran.com/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Safari/605.1.15
+Host: aspectran.com
+Cookie: _ga=GA1.1.1224198823.1668959823; __cf_bm=x0jGK9iawAigzf_XTwOLzpRzizsElM6D6U3w1E.yshQ-1668967488-0-AcHjbB40+HhEzQforDeyXMeQgdNWhnSCumxWxeJsbhutAIdafGKSPVJmjSq2IYbGNWvWA7yi2NtlRbg8HR9UXvphtLmAnpILP8m41FD3EG5mxJvyV5kDvNmr0zBX25xd7pWDCCEtmYoFJIojEN91+pI=; _ga_PBGW9BF7P6=GS1.1.1668965875.2.1.1668967491.0.0.0
+

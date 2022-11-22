@@ -1,0 +1,15 @@
+GET https://aspectran.com/assets/fonts/iconfont.woff HTTP/1.1
+sec-fetch-mode: cors
+sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-fetch-site: same-site
+sec-ch-ua-mobile: ?0
+accept-language: en-US,en;q=0.9
+sec-ch-ua-platform: "Windows"
+origin: https://jpetstore.aspectran.com
+accept-encoding: br,deflate,gzip
+sec-fetch-dest: font
+accept: */*
+Referer: https://aspectran.com/assets/css/aspectran.css
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Safari/605.1.15
+Host: aspectran.com
+

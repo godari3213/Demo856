@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+
+ 
+    
+    
+    
+    
+
+    
+    
+    
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Search</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="styles/back.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/tabstyle.css" type="text/css" /><style type="text/css">._css3m{display:none}</style>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+
+<style>
+    #demo {
+	  font-family: "trebuchet MS", sans-serif;
+	  font-size: 35px;
+	  color: #669ae1;
+	  font-style: normal;
+	  font-weight: bold;
+	  font-variant: normal;
+	  text-align: left;
+	  letter-spacing: 0px;
+	  
+	}
+	#demo1 {
+	  font-family: "trebuchet MS", sans-serif;
+	  font-size: 20px;
+	  color: #669ae1;
+	  font-style: normal;
+	  font-weight: bold;
+	  font-variant: normal;
+	  text-align: left;
+	  letter-spacing: 0px;
+	 
+	}
+	#demo2 {
+	  font-family: "trebuchet MS", sans-serif;
+	  font-size: 15px;
+	  color: #669ae1;
+	  font-style: normal;
+	  font-weight: bold;
+	  font-variant: normal;
+	  text-align: left;
+	  letter-spacing: 0px;
+	 
+	}
+	.custom-title-bar{
+		font-size: 22px;
+	    text-transform: uppercase;
+	    color: #044e05;
+	    font-weight: 600;
+	    padding: 5px;
+	}
+	.custom-hr-color{
+		padding: 0px;
+   	 	margin: 0px;
+   	 	height: 1px;
+    	background: #044e05;
+    	margin-bottom: 10px;
+	}
+	.button_box2 {
+margin:100px auto;
+}
+/*-------------------------------------*/
+.cf:before, .cf:after{
+content:"";
+display:table;
+}
+.cf:after{
+clear:both;
+}
+.cf{
+zoom:1;
+}
+/*-------------------------------------*/
+
+.form-wrapper-2 {
+	width: 99%;
+    padding: 15px;
+    background: #044e05;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+
+
+}
+.form-wrapper-2 input {
+    width: 77%;
+    position: absolute;
+    padding: 10px 5px;
+    float: left;
+    font: bold 15px 'Raleway', sans-serif;
+    border: 0;
+    background: #eee;
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+.form-wrapper-2 input:focus {
+outline: 0;
+background: #fff;
+-moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+-webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+.form-wrapper-2 input::-webkit-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+.form-wrapper-2 input:-moz-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+.form-wrapper-2 input:-ms-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+.form-wrapper-2 button {
+overflow: visible;
+position: relative;
+float: right;
+border: 0;
+padding: 0;
+cursor: pointer;
+height: 40px;
+width: 110px;
+font: bold 15px/40px 'Raleway', sans-serif;
+color: #fff;
+text-transform: uppercase;
+background: #D88F3C;
+-moz-border-radius: 0 3px 3px 0;
+-webkit-border-radius: 0 3px 3px 0;
+border-radius: 0 3px 3px 0;
+text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+.form-wrapper-2 button:hover{
+background: #FA8807;
+}
+.form-wrapper-2 button:active,
+.form-wrapper-2 button:focus{
+background: #c42f2f;
+}
+.form-wrapper-2 button:before {
+content: '';
+position: absolute;
+border-width: 8px 8px 8px 0;
+border-style: solid solid solid none;
+border-color: transparent #D88F3C transparent;
+top: 12px;
+left: -6px;
+}
+.form-wrapper-2 button:hover:before{
+border-right-color: #FA8807;
+}
+.form-wrapper-2 button:focus:before{
+border-right-color: #c42f2f;
+}
+.form-wrapper-2 button::-moz-focus-inner {
+border: 0;
+padding: 0;
+}
+	</style>
+    <script type="text/javascript">
+	var lastcatId="";
+	var lastsubcatId="";
+    var attr;
+    function fetchByProdName(e) {
+		console.log("fetchByProdName");
+    	attr="";
+    	var key=e.keyCode || e.which;
+    	if (key==13){
+    		attr='fetchByName.htm?pname=';
+    		attr+=document.getElementById("pname").value;
+    		console.log(attr);
+    		document.location.href=attr;
+    	}
+    }
+
+    function getSubCategoryList(catId){
+   	console.log('getSubCategoryList in home.jsp '+catId);
+   	//document.location.href='fetchSubCat.htm?val=home&catid='+catId;
+   	 $.get('fetchSubCat1.htm', {
+            catId : catId,
+            val  : "home"
+    		}, function(response) {
+    			console.log("successful response from ajax "+"#submenuul"+catId);
+    			console.log(response);
+    		var select = $('#menu-v'+catId);
+//        var list=;
+    select.find('li').remove();
+   /*   $.each(JSON.parse(list), function(idx, obj) {
+    	alert(obj.tagName);
+    	  $('<li>').val(obj.pSubCatId).html(obj.pSubCatName).appendTo(select);
+    }); */
+      $.each(response, function(index, value) {
+   	   console.log('inside each reponse');
+   	   console.log(value);
+   	   console.log('subcat name is :'+value.pSubCatName);
+    	  //$('<li>').html(value.pSubCatName).appendTo(select);
+   	  select.append('<li>'+
+   						'<a href="#" style="width:132px;height:35px;line-height:20px;">'+
+   							'<span onclick="getProducts('+value.pCatId+','+value.pSubCatId+')">'+value.pSubCatName+'</span>'+
+   						'</a>'+
+   					'</li>');
+   	  
+      });
+    });
+   }
+
+  /*   function getSubCategoryList(catId){
+	console.log('getSubCategoryList in search.jsp');
+	document.location.href='fetchSubCat.htm?val=search&catid='+catId;
+} */
+/* For brand filtering
+*/
+function getProducts(catId,subCatId){
+	 console.log("subCatId: "+subCatId+" catId "+catId);
+	 document.location.href='fetchProd.htm?val=home&catid='+catId+'&subcatid='+subCatId;
+ }
+    function brandSelected(brand,catId,subCatId){
+		/* var minval = document.getElementById('minvalue').value;
+    	var maxval = document.getElementById('maxvalue').value; */
+    	document.location.href='fetchProd.htm?val=search&catid='+catId+'&subcatid='+subCatId+'&brand='+brand;
+    }
+    function checkLogin(prodId){
+    	//alert(prodId);
+    	document.location.href='checkLoginCart.htm?prodId='+prodId;
+    }
+    function displayCart(){
+    	document.location.href='displayCart.htm';
+    }
+/*
+This is for sub category selection & price range filtering
+*/
+    function getprodBySubCatPrice(catId,subCatId){
+		console.log("getprodBySubCatBrandPrice:"+" "+catId+" "+subCatId);
+		if (catId==undefined){
+			catId="";
+		}
+		if (subCatId==undefined){
+			subCatId="";
+		}
+		
+    	var minval = document.getElementById('minvalue').value;
+    	var maxval = document.getElementById('maxvalue').value;
+		console.log("min value "+minval);
+		console.log("maxval value "+maxval);
+    	document.location.href='fetchProd.htm?val=search&catid='+catId+'&subcatid='+subCatId+'&brand=&minval='+minval+'&maxval='+maxval;
+    	
+    }
+    </script>
+</head><!--/head-->
+
+<body>
+	<header id="header">
+	    <!--header-Top-->
+		<div class="header-middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index.html"><img src="img/logo.png" alt="" /></a>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							
+							<a href="fetchcat.htm"><i class="fa fa-lock"></i> Home</a> &nbsp;&nbsp;
+							
+								
+						Hi, TestQAHYD2     &nbsp;&nbsp;
+						
+								 &nbsp;&nbsp;
+						<a href="logout.htm"><i class="fa fa-lock"></i> SignOut</a>
+						
+							
+					    </div>
+				    </div>
+			    </div>
+			</div>
+		</div>
+	
+		<div class="header-bottom"><!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12">
+<!-- 	<div class="">
+	<div class="">
+				<ol class="breadcrumb">
+				  <li><a href="#">Home</a></li>
+				  <li class="active">Check out</li>
+				</ol>
+			</div> -->
+	<!-- 		<form class="form-wrapper-2 cf"> -->
+	<div>
+			<input type="hidden" name="val" value="search"/>
+			<!-- <input type="text" placeholder="Search here..." id="pname" onkeypress="fetchByProdName(event)" required/>
+			<button type="submit" onclick="fetchByProdName(event)">Search</button>  --> 
+			</div>
+			<!-- </form>-->
+        <!-- <div class="col-sm-6 col-sm-offset-3">
+
+		         <div id="imaginary_container"> 
+		         <div class="input-group stylish-input-group">
+		                <input type="text" class="form-control" id="pname"  placeholder="Search" onkeypress="fetchByProdName(event)">
+		         <span class="input-group-addon">
+                       <button type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>  
+                    </span>
+                </div>
+            </div>
+        </div> -->
+	</div>
+</div>
+					
+				</div>
+			</div>
+		</div><!--/header-bottom-->
+	</header><!--/header-->
+	
+		<section>
+		<div class="container">
+			<div class="row">
+		
+				<div class="col-sm-3" style="border-right: 1px solid #044e05;    padding-right: 0px;">
+
+					<div class="left-sidebar">
+						<!-- <h2 id="demo1">Category</h2> -->
+ 						<span class="custom-title-bar">Category</span>
+ 						<hr class="custom-hr-color">
+ 						<ul id="menu-v">	
+ 						
+ 						<li><a href="#"  style="width:175px;height:35px;line-height:20px;"> <span onclick="getSubCategoryList(11290)">Electronics</span></a>
+ 						
+ 						<ul style="color:white;" id="menu-v11290">
+ 						
+						</ul>
+ 						
+ 						</li>
+ 						
+ 						<li><a href="#"  style="width:175px;height:35px;line-height:20px;"> <span onclick="getSubCategoryList(11292)">Home Appliances</span></a>
+ 						
+ 						<ul style="color:white;" id="menu-v11292">
+ 						
+						</ul>
+ 						
+ 						</li>
+ 						
+ 						
+ 						</ul> 
+						
+					<br></br>
+						<div class="brands_products"><!--brands_products-->
+							<!-- <h2>Brands</h2> -->
+							<span class="custom-title-bar">Brands</span>
+ 						    <hr class="custom-hr-color">
+							
+							<div class="brands-name">
+								<ul class="nav nav-pills nav-stacked">
+								
+								</ul>
+							</div>
+						</div><!--/brands_products-->
+						<!--,, -->
+						<!-- <div class="price-range">price-range
+							<h2>Price Range</h2>
+							<div class="well text-center">
+								 <form>
+									<h6> Min value</h6><input type="number" name="amountInput" id="minvalue" min="0" max="2000" value="0" onchange="getprodBySubCatPrice()"/>
+									<h6> Max value</h6><input type="number" name="amountInput1" id="maxvalue" min="0" max="2000" value="0" onchange="getprodBySubCatPrice()" />
+								</form>
+							</div>
+							
+						</div>/price-range -->
+						
+										
+					</div>
+				</div>
+				
+				<div  class="col-sm-9">
+				
+				
+				
+					<div class="col-sm-4 col-md-4 col-lg-5">
+                        <div class="thumbnail" >
+                            <h4 class="text-center"><span class="label label-info">Samsung</span></h4>
+                           <!--  <img src="file:///C:/TestMe/product_images/11290-112101-HeadPhones.JPG" style="width: 200px;height: 126px;" alt="no imag"> -->
+                           
+
+                           
+        <img  class="img-responsive" src="data:image/jpg;base64, /9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADwAKkDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoopGOFJoACcCmSSrEhdyqqBksxwBWV4g8Q2HhzS3v9QlWONeFUn5mb0A7mvnnxd8RdW8UzNEJXtdPz8kEZwWH+0epPtQB7XrHxQ8LaO7RyagJ5VOCkA3EH0NczN8edEjchNNvHUdGyB+leJw2e7JK4B5yTVpbGE8Mee4C0Ae12nxu0K7YKI3ic9pDitdPiVZOAywbgehDjmvJrD4S6xrdj9qihWGMrlBP8rN9B/U4rm9V8P+JPBtxsuYJUjJ4VuUb6N0P4ZoA+hI/iNpzffhdf+BCtWx8XaRfkIlyqSHor8Zr5ntdcadAclW6Mp7Graas4xh2H44pAfU6uGAIIIIzwc5p4ORXz94c+I2oaLIiOxuLXOGiY5IH+ye1e06B4isPEVgLmxlBxgPGT8yH0IpgbNFFFABRRRQAUUUUAFFFFABRRRQAhOKo6tqlro+mz315II4IVLM39B71eJwK8C+MXi46hqa6Havm1tiGn2nhn9D9KAON8YeLb3xfrL3U7FbdDtggB4jX/ABPr71ixqqYLDJ/lUCHuafuycUAXo3eSRUQMzMQFVRkknpXuHgD4cJYwRaprCB7sgNHC3Kxe/wBawfhH4JWdx4hvo8orYtlcfePdvw7V7YFx3oAAoAx29MVWu9PtdQtHtbyCOeBxhkdQQat0UAfPnxC+FkuimTVdERpbPq8PVkHp7r+tecRbHQOC2ehXPIPcV9jPEsiFHUMjDBUjgivn74o+AW0K6bW9JjY2Mjfvo1H+rY0AcCFA79OhzWxoPiG98P6lHeWM7Ky9VzlXHcEd6wA+8AgjawyMU9Tg88+1ID6n8LeJ7TxNo6Xlsw3gYljJ5VvT6e9b4OR0xXy74P8AFVz4W1iO6iZmgbCzRZ4Zc/z7/hX0xYX1vqFhDd2riSCVA6MDnINMC3RSA5paACiiigAooooAKDRSN92gDD8Wa5H4f8NX2ouQGjjOwHux4H+favk27uZLq6lnmYtJI5dmJ6k17N8ddcMcenaJE3MpM0i+o6L/AFrxqO0eVSwIxkjOfSgCHd6VteFdEl8Q+IbPT4x/rHG9v7qjqaoDTn7la9l+Cnh3yDd6vKoLY8qJsdPWgD1iysodPsoLS3RUhhUIqj0H+c1coxRQAUUUUAFVb2yg1C0ltLmNZIJlKurdCCKtUUAfKHi7wzN4T8R3Omvlrdm8y3cj7ynp+P8Agaxgp9K+h/iv4XGveGnvIUH2yxzJGQOWXuv9a8Ht4PtEKuB16j0NICmqkE44P+ea9b+D/ikxTP4fupDsbL22T9090H8/zrzVrNh2p9lLLp1/BdwkrLC4dCO1MD6wXpS1maFqkesaNa38fSZAxHoe4rSBzQAtFFFABRRRQAUh5FLUF1MttazXD/diRnP0Az/SgD5i+JOpnVfiNqcgOY7UiBB/ujH881hWjB4AyptHPy/1qpcTvd3d3cMSXmuGJJ9yTVtXJGAuAKAJWbauQpb2HevpfwJp503wfp0RXbI0YkcH+83Jr5z0i3N7q1pbc/vZlTj3OK+q4IxFDHGOAqhfyoAmooooAKKKKACiiigCKSJZY3RxlXBDD1B4/lXzfdaMdE8banopzs3GSEnup5r6Vryj4naclr4m0XWgoAlJtpWI9fun8KAOKl03Cn5f0rOnstp6V6FJp25A3UMMjisC+sQpPFK4HXfCbUy1ldaW7cxHzUB7A8H+leljpzXhngq8OmeL7TPCzN5T+mG4H64r3NelMBaKKKACiiigArnvG959g8Eazc5xi1dQfdhtH866GuD+MNz9m+GupAHBmMcf/j4P9KAPmmzG7ywexZjWkGUVl2QOMjsuP1zV0b80Adf8PLcXnjjTUxkK+/8AJSa+lh2zXz98GrbzfGJcjIit2YH8QP619B0AFFFFABRRRQAUUUUAFcX8UNPN94FvmQfvbYCdCOoK88V2lUdVtVvdLu7ZxlZYmQj6igDzHQdWXUvDlpcn7zJhvYjiqeourKcVyvhG+e10+6sJCQ1rO6kHt2/nWpc3uVOTUjKUkpguo5UbayMGBHY5r6Ds7hbyyt7lfuyxq4/EA183XE+7kdjmvdPAV59t8GWDlssitGf+AsQP0xVCOloozRQAUUUUAFeY/HWXZ8P40/56Xsa/+Osf6V6a3SvKPjzJ/wAUjp6dmvlJ/BGH9aAPArKfyg6mIsRzj1FWXviu0iJsNgBunPpVqS/aXUmWFFhXyVUhVHZR3+tVJ4L+4tVjLoGDZ5/h5GD+lAHoPwr8T6boWs3VxqrPAJogkTBCc85P9K+hba4iu7eO4gcPFIoZWHQivkOGGZTCXZdqodw7lj6V9SeC+PBmkf8AXsv8qAN+iiigAooooAKKKKACmkZ4x1606k70AfMd+i6T4+8QWb5VWnLqB6Mc/wDs1K17FycE5HrVn4pQfYvihcuOBcQRv9eCP/Za5nz6ANKS8UnhBn3r2L4RXpuPDd1CSMx3RYAdgyrx+ea8J83Nes/BO7Bl1e2J6rG6j6bgf6UAewgYFLSCloAKKKKAA9K8y+M+my6l4f0+KDBm+2jYp/iO0/L+NemmsTxFoq6xbW4D7JbadZ4z2JXsfwzQB8ncRao+/wCXA2nn2rWsZrZllSWeNNyYVmBwDn2BrO16zlttXn85JYQHIBK8H86pRphfMRnZQeW2jA/HFAGxuAJUMrY4yD19+cV9O+CyD4M0g/8ATsn8q+WLSK+vC32eLzNg3MflGBX0P4R8X6BZeEtKtrvVbaK4it1SRGflSO1AHf0VkWniTRb7i11O2kPoJAM1qBs8g5GOMd6AH0UUUAFFFFABXFfEnWbnRfDfn2109szyhGmUAsoPpkV2tecfGxA/w8nb+7PGfzbFAHzxPq97q199qv7qW4mGUDytuYKCMD6ZJqUScmsu0BLsACSpJwB2wD/Sr6k55oAnElenfBS4/wCKpvIc8PaFvyZf8a8q3qpOTXo/wYWVvGZkSN/J+zOjMRwDlSP5UAfQw6cUtIucc0tABRRRQAUjdKWkPTmgD5O8f6rqR8R6jZzXHmRR3EgCMowuGOK56xnv5Yym/bB/EuMA/hXcfEPR3XxxqNxMoWAzs4LfxZ54Fc7KAId/r932FAFNUckqpwO+OBUyW2RycUIVSPcfvGqs195Z+/gjtSAvrbSRsHikKsOQVODXWeG/iHr/AIclVJZWu7MfeimJ4/3T1H41wC6sd3381oW+oJKuGAP9aNRn1B4b8V6b4psvPspsSKB5kLHDofcenvXQ18n6Zql5oeoRX+nzMjxt26EehHevozwh4nt/FGjx3UTYmX5Z4852v/geopiOkoqhqOq2ek2jXN9cJDCvJZjjPsPU15b4i+MzDzItBtMgcC4nH8l/xoA9fJrgPjEFb4c3ozyHQgdejV4xqnjvxHqTt9r1m55OdkT7Fx9FwK528vLi8t2SS4lYMRnzHODz70gNT4fxQvrTNKgb51GGXIwVbt+Vd1d+BNN1a7Y2yTWwJyXVcqT7Vw/hO9bw9eSuJoBJIivvYBtuCehxwa7JPiddQvte2t7gjqwQjP8AKgCxZfCa0ScPcXkkq5+4FC5/HJr0jwt4fttGnVLWEJGqkcDr9T3rz22+JNxcSBHS2tIyeWELOfy3CvZtKkWXS7SZWD+ZCr7wu3dkA5x2znOKQy6KWiiqEFFFFACHpxWP4i1uLRNOaZzmRuI19/WthuleL/FzW2j1hLJCcQw5PsWz/QCgDzrxNrc2ralcXMrltz7QSao3i4giP+yKz7lv3RIPO/JrUk/f6VDIOccH2pAZ87bYQfaubnZ5ZC+c810zrug/A1zrrtlKnqDTQFfDryRVyyuSkgDdKNo2ioHXa2RxTA6xC8aI/WNu/pXQeEvFM/hLWDdxgyQOpSSIHhuOPxrm9Ju0m0qWKY42cqc9ant9kcX2mbBUfKqHqfoKkDb8Q+I77xDcm+1OdlizhIR91fYCucd3lbaFKru+VVGdwqRI5Lmbex+bsM/KorWtreOEAgfMeretMZyN9JNaMqGIoMZBPcGoWkDwDJySeRXUasLV4DHOy5wcAdQfWuObYszJExZR60COjsUAtIxgdM9KtqKhtk2W8Y/2RVlRQA+JAzovqRX1NpEfk6NYx/3bdF/JRXy7bkC4jLZA3DP0719R6bdW97p0FxauHgdAUYemKALlFFFABRRRQAhGa+Z/jFdNb+OdQVvvMke0eo2j/wCvX0wTgV8//HrRHh1qw1pVzHcReQ59GUkj8w36UAeXxOZYSp6kAk+/etfRJFmsprNvvj5lNYFrcqieSeSHJ3eoNXY3e1uVmTgUAWCpV2RuMH9aytQtGV96j3IrYuHS4UTrjcTkiotyTQ+rDrSAweOP1FMflTWs9grjI4NQf2c+4ZPyg5NMCbS4lRVMvCH5n9gKW8vVifeOe0YPp60suI4Dnhep+lYcsxmlZyeMYAoA7DTbpJYVxgHGGB7GrWpPc2qRRxoollXIyfur6kds9q5nTYLllEkZ2hjtHv71q30zWtjI7OzS7doZjkk0Ac/f3TGR0Vy5z87nqx9vQVVtFLTKB13CoXJ3c9fWr+lR77uMAd8mmI6pBtVR6CpF5/8A1VGOvSpQSoJBxkYpDJIvvqR0617P8JNSkn0u8sHJK27q6Z7Bs8fmteMQnDbjXq3wcUvNqso4RRGv1PzUgPWxRSClpgFFFFACEZrmfHfhlPFXhO807AM+3fAx7OBx+fT8a6emuMrQB8RPYXFvqMlpNGySxOUdSMFSOtaaFomEEw6/dJ6N7fWvdviR4AW+lfXdMgU3IH+kIo5cD+Ie9eN3FusimORMYPII5B/xoAoeUy52ZA9PT8KpyeZA+4dCeavESWxw+5k/hkA5A96R1SZDkg+jA0gKcd8Rwwq3FcLO2wD5iKqSWfOQMj2qSxt2S7QkHHIpgM1QFbcLyFY4PbFY0UDPOsQGST+ddpeaY1xp8jheVYYOM4PpWTpdkySNJIuGUgAHtQBoWdt9nhVTycflWNrk7SzpbINxU5IHc1vyOsSM56KCa57S2Fzq0krckKSM/WgDNayuERpHTaq9cmtPQY8zM5/hGKsa66x26RqRukJJFTaNDssgx4LmmBor+vpUo4BPpzwajAxxT8Z78UgI5nYKqrwSK+gfhbo7aX4OhklGJrxjOcjBC4AX9Bn/AIFXkPgzwzJ4o8RJDsJtISHnbsFB6fU9K+kYVWOJURdqKNqj0A4FICWiiimAUUUUAFIRmlooAaVBXFefeMPhpa60z3umlbe9Iyy9EkP9DXodIRmgD5Y1bRNQ0W7NtqFtJA46bh8rfQ9DWU9rGyHahjcH7yHr+FfWF9plnqUHk3ttFcRf3ZEDY+lcne/CnwzeElIJbYnn91IcfkcikB86CykLYWRP5GnTxta4DTKzk5Crn/CvfU+D2ixtuXUNTHssqr/Ja1dI+GvhjR7j7VFp4nuevnXLGRs+vPA/KgDynQdE1SXQjdXVhLHbzcI7Ljdx1x1x71y95AtteSwqpCqx619Ty28c0LRSKCjDBXHGPpXgHxD8Py6Jr7OqH7PON6N2PqPrQB59rMrR6e+3+IgfSudgnezmS5jBK9G966DWFZ7BwoyQQcVzcFzJbudoDA8FWGQaaAnmf7be7w5becAEfd9q6yCMRQqg6KMVhaRB51285RVVeQFHAPtXQ4pMBARkcVd0vTbnV9TgsLNN08zbUHpxnP4YJqqq5969f+E3hyNLWTXJ4UaRmK27MuSoxgkenUigDtPCfhe28L6OlpAAZW+aaTu7f4V0AGBQPu0tMAooooAKKKKACiiigAooooAKKKKACiiigArG8Q+H7TxJpj2d2oweUkA+ZG7EVs0UAfOniD4Za9pMrtDbNeW2TteIbjj3HUVxb+DtSvbralnJFIv39ykV9fYpAvrzQB8pQeHbzTYkg+zyOx5JVCc1q2XhDxBf4MGlXLKf4ihA/OvpbyYwdwRQfUAU7HHPP1pAeMaP8ItQnw+p3KWyZ5RPmc/j0FevadYQ6bYQ2duoEUKhVH0qzjHp/KndqYCAYpaKKACiiigAooooAKKKKAKWqzPb6RezxNtkjgd0OOhCkg4+teXReKvElnpdtPc32oxveWMU0X9oQ2pMjmaAMYfJGAm2RsiTDfMpA4bHrE8EdxbywSrujlUqy5xkEYIrn4fA/h+CMR/ZbmVRGsKC4vp5vLRWVwqb3OwZRCQuM7RnIFAGTdfEaOz0+1vJdMcieO9fakhYhoJ0hVcBcnczg8DK+jVTm8eaql1p00+lSWFnG9y16JFlUyRxwGQGISwozAc9VX5lxyDuPRjwN4dMk7tp7N56zI6PcSMirMwaQKpbaoZgG+UDB5GDUkPg/Q4vLYWkkkiTNP5k1xLI7uybG3szFnBX5cMSMADHFAGOvji/WWKwuNEhi1e6NubWAXxaF1mWVgXk8vKlRBLkBW5C4JzkYN9488QT3bPZ20NtEi2itB5qu3nG/NvKuSmCrbHUHIwMHAJwvZx+CdAgsXtI7SUI7xt5n2uYzIY/uBJS+9AuSAFYABmAHzHLh4M0BTblbAj7PHHGgWeQAhJRMpYBvmYON25skknJO45AMrUvFF+/w88QapFGthqWnLdRHZIJkSWIkAqWUbgcA/Mo64xVLWPHeoaTrYa70bULO1XTZZVtZ/JZp5jPBFHgwtIwAMpBwM4bIViAK62Xw9pc2m3+nPa5s9QaR7qPzG/eGT7/ADnIz7Yx2xVe80zRPEF7cpd24uJ4YWs5cl12pJskKjBAzlY2DDkEDBBoCxgXHxBu7bQvtr6KIrtJJVNpcvcRNMqKGLQgweY4wwyTGoXDZIABMNx441G+msZ9OsfJ0z+0Y7aaZpgXkJh8wqUKEKnzAbg2cjpg5refwN4ekiWOSylkCtIzM13Mzy+YFDiRy+6RWCKCrlgQqjGABQfBGgCWKaK0dHh2mP8A0mUoHVPLVym7azhPl3EFiOCaAOaufHuszw6OsOlpaXOofY7m3T7UJFmhlYKyOxQbCCy8qG4bI5G2rh+Idy9lJNFoiPLZwXFxqEZvMCJIJmiby22fvGJRyAQgwOSM1p6L4D0fR9OsIXjkurm1it1+0ySyEloR8pVSx2LuJbYvy5PQ1Zn8FeH7lFWWwbAeVmCTyKJBK/mSK+GG9Gbkq2V9sUAYcvxGNpLPcXekhNMjlu4kuI7ndK7QRtIT5ZUABlUgfOTnjGOajb4ialFpb3U3hi4iaOVQ8swuYrdI2Rm3tI9uGGCm0nZsXcpLgHjqG8MaMzfPYK4E00+x2ZlLyqySEqTghlYjB454AqrH4G0CKAxJBdKzMG84X8/nDapUKJd+8KFJG0Nt5PHNAGxp14uoabaXqqFW5hWYKsiyABlBwGUlW69QSD1BIq7VaztbewsoLO1iSK3gRY4o1GFVQMAD6AVZoAKKKKAP/9k="/>                            
+        
+                            <div class="caption">
+                                <div class="row">
+                                    <!-- <div class="col-md-6 col-xs-6"> -->
+                                        <center><h4>Headphone</h4></center>
+                                    <!-- </div> -->
+                                    <!-- <div class="col-md-6 col-xs-6 price"> -->
+                                       <center> <h4>
+                                        <label>3500</label></h4></center>
+                                   <!--  </div> -->
+                                </div>
+                                <center><p>Blue tooth head phone</p></center>
+                                <div class="row">
+                                   
+                                    <!-- <div class="col-md-6"> -->
+                                        <center><a href="#" class="btn btn-success btn-product" onclick="checkLogin('1')"><span class="glyphicon glyphicon-shopping-cart" ></span> Add to cart</a></center>
+                                        <!-- </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					
+                
+				</div>
+			</div>
+		</div>
+	</section>
+		
+  
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/price-range.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+	<script src="js/menu-vertical.js" type="text/javascript"></script>
+
+</body>
+</html>
